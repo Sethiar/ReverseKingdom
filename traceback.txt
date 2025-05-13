@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/logic/interface.rpy", line 23, in script call
+    call interface_skills
+  File "game/logic/interface.rpy", line 23, in script call
+    call interface_skills
+ScriptError: could not find label 'interface_skills'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/logic/interface.rpy", line 23, in script call
+    call interface_skills
+  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\ast.py", line 1427, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/logic/interface.rpy", line 23, in script call
+    call interface_skills
+  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'interface_skills'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+Reverse Kingdom 1.0
+Tue May 13 22:35:40 2025

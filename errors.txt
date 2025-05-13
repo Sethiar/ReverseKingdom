@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/logic/interface.rpy", line 79: end of line expected.
+    scene bg RK_Gameplay_Interface.png with fade
+                                  ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Tue May 13 22:36:09 2025
