@@ -5,9 +5,9 @@
 
 # Aller au Village pour la première fois va présenter plusieurs possibilités :
 
-     # Rencontrer Isis qui permettra de débloquer le talent intelligence.
-     # Rencontrer l'aubergiste et sa femme Ingrid. Déblocage du travail en tant que serveur (matin ou après_midi).
-     # Rencontrer Clara.
+# Rencontrer Isis qui permettra de débloquer le talent intelligence.
+# Rencontrer l'aubergiste et sa femme Ingrid. Déblocage du travail en tant que serveur (matin ou après_midi).
+# Rencontrer Clara.
 
 
 label GoToVillage_01:

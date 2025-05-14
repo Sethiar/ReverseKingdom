@@ -3,7 +3,29 @@
 # Script qui définit l'utilisation de l'interface #
 
 #==================================================#
+image bg pagetest_1 = "images/PageTest/1.png"
+image bg pagetest_2 = "images/PageTest/2.png"
 
+
+
+# Script qui permet de tester l'interface.
+label interface_test:
+    scene black with squares
+    show screen cadre_frame with pixellate
+
+    no "OK"
+    no "bon maintenant l'interaction. Prenons une image."
+    
+    # Affichage de l'interface avec des boutons
+    call screen interface_buttons
+
+    no "Ensuite, on va créer l'interaction."
+    no "et on clic !!"
+
+    return
+    
+    no "Ah, pas mal "
+    
 
 # Script du tutoriel de l'interface utilisateur.
 label tuto_interface:
@@ -75,6 +97,3 @@ label tuto_interface:
     # Présentation du choix du tutoriel.
     jump first_choice
 
-label interface_menu:
-    scene bg RK_Gameplay_Interface with fade
-    no "Voici l'interface, vous pouvez accéder à ..."
