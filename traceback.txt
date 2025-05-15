@@ -1,44 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-  File "game/screens.rpy", line 97, in prepare_screen
-    screen interface_buttons():
-  File "game/screens.rpy", line 97, in prepare
-    screen interface_buttons():
-  File "game/screens.rpy", line 103, in prepare
-    imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action Show[("interface_rela"), Hide("interface_buttons")] pos (90 , 380)
-  File "game/screens.rpy", line 103, in prepare
-    imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action Show[("interface_rela"), Hide("interface_buttons")] pos (90 , 380)
-  File "game/screens.rpy", line 103, in <module>
-    imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action Show[("interface_rela"), Hide("interface_buttons")] pos (90 , 380)
-TypeError: 'type' object is not subscriptable
+While running game code:
+  File "game/script/act1.rpy", line 122, in script call
+    call menu_intro_isis_01
+  File "game/screens.rpy", line 227, in script call
+    call MC_01_corr
+  File "game/logic/tutoriel.rpy", line 76, in script
+    jump fuck_up
+ScriptError: could not find label 'fuck_up'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\main.py", line 652, in main
-    run(restart)
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\main.py", line 94, in run
-    renpy.display.screen.prepare_screens()
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\display\screen.py", line 1027, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/screens.rpy", line 97, in prepare_screen
-    screen interface_buttons():
-  File "game/screens.rpy", line 97, in prepare
-    screen interface_buttons():
-  File "game/screens.rpy", line 103, in prepare
-    imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action Show[("interface_rela"), Hide("interface_buttons")] pos (90 , 380)
-  File "game/screens.rpy", line 103, in prepare
-    imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action Show[("interface_rela"), Hide("interface_buttons")] pos (90 , 380)
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/screens.rpy", line 103, in <module>
-    imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action Show[("interface_rela"), Hide("interface_buttons")] pos (90 , 380)
-TypeError: 'type' object is not subscriptable
+  File "game/script/act1.rpy", line 122, in script call
+    call menu_intro_isis_01
+  File "game/screens.rpy", line 227, in script call
+    call MC_01_corr
+  File "game/logic/tutoriel.rpy", line 76, in script
+    jump fuck_up
+  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\ast.py", line 1712, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'fuck_up'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Reverse Kingdom 1.0
-Wed May 14 21:58:27 2025
+Thu May 15 22:43:34 2025

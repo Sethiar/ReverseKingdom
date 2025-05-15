@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 110: 'hide' is not a keyword argument or valid child of the screen statement.
-    hide interface_buttons
-        ^
+File "game/logic/tutoriel.rpy", line 131: expected 'label_name_declare' not found.
+    label
+         ^
+
+File "game/screen/ui_dream_reflex.rpy", line 4: imagebutton expects a non-empty block.
+    imagebutton:
+                ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed May 14 21:55:49 2025
+Thu May 15 23:44:14 2025

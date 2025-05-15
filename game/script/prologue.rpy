@@ -347,9 +347,6 @@ label prologue:
     # Saisie du prénom par le joueur.
     $ player_name = renpy.input("Quel est ton prénom ?", length=20)
     $ player_name = player_name.strip()
-    $ mc = DynamicCharacter("player_name", color="#DE7915")
-    $ mc_thought = Character("player_name", kind=mc, what_italic=True, what_prefix="(", what_suffix=")", color="#DE7915")
-    
     if player_name =="":
         $ player_name = "John-Doe"
         
@@ -403,7 +400,7 @@ label prologue:
     # image bg = "scene_intro_vox_mc_14.png" (vox en train de voler en regardant le pouvoir venir à elle. Plan à définir)
     vo "Ta pureté est à moi maintenant..."
     # Effet de l'écran qui s'estombe des yeux du mc
-    mc "Je ne veux p..."
+    mc_thought "Je ne veux p..."
     
     # --------------------------------------------------------------------
     # Scène de la mort du MC.
@@ -411,10 +408,10 @@ label prologue:
     
     # image bg = "scene_intro_vox_mc_15.png" (mc les bras ballants en train de léviter
     #  MC se parle à lui-même.
-    mc "Je perds connaissance..."
-    mc "C'est donc ainsi que tout se termine..."
+    mc_thought "Je perds connaissance..."
+    mc_thought "C'est donc ainsi que tout se termine..."
     # image bg = "scene_intro_vox_mc_16.png" (mc les bras ballants en train de léviter zoom sur le visage.)
-    mc "Voici donc l'instant où je meurs..."
+    mc_thought"Voici donc l'instant où je meurs..."
     
     # La scène est vue par les yeux du MC
     
@@ -428,6 +425,7 @@ label prologue:
     # Zoom sur visage vox surprise.
     # image bg = "scene_intro_vox_mc_19.png" (vox en train de léviter surprise.)
     vo "Mais !!! Qu'est-ce que ... !!!!"
+    vo "C'es quoi ça ????"
     
     # image bg = "scene_intro_vox_mc_20.png" (vox en train de léviter et cris et douleurs.)
     vo "Ce n'est pas possible ..."

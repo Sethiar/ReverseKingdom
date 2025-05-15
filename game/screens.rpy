@@ -74,18 +74,31 @@ style vslider:
 style frame:
     padding gui.frame_borders.padding
     background Frame("gui/RK-FrameGame.png", gui.frame_borders, tile=gui.frame_tile)
+    
 
+
+#________________________________________________________________________________________________
 
 
 #==========================================================#
 #============== Ajout de Nosiris ==========================#
 #==========================================================#
 
+
+
+
 screen cadre_frame():
-    frame:
-        style "frame"
-        xfill True
-        yfill True
+    if frame_ON:
+
+        frame:
+            style "frame"
+            xfill True
+            yfill True
+
+# Fonction pour marker tuto.
+screen tuto_mark(pos_x=60, pos_y=160):
+    tag tuto
+    add tuto_marker_anim pos (pos_x, pos_y)
 
 
 # Accès à l'interface.
@@ -99,7 +112,7 @@ screen interface_buttons():
     imagebutton auto "gui/interface/Icons/ico_interface_%s.png" action [Hide("interface_buttons"), Show("interface_main")] pos (90 , 180)
     # Accès rapide à l'écran des quêtes.
     imagebutton auto "gui/interface/Icons/ico_quest_%s.png" action [Hide("interface_buttons"), Show("interface_quest")] pos (90 , 280)
-    # Accès rappide à l'écran des relations.
+    # Accès rapide à l'écran des relations.
     imagebutton auto "gui/interface/Icons/ico_rela_%s.png" action [Hide("interface_buttons"), Show("interface_rela")] pos (90 , 380)
 
 label interface_main:
@@ -123,6 +136,7 @@ screen interface_buttons2():
     imagebutton auto "gui/interface/Buttons/btn_equip_%s.png" action Show("interface_equip") pos ( 10, 620)
     # Bouton relation avec trois états.
     imagebutton auto "gui/interface/Buttons/btn_rela_%s.png" action Show("interface_rela") pos ( 10, 720)  
+
 
 label interface_skills:
     show screen interface_skills
@@ -172,6 +186,75 @@ screen interface_inv():
     tag interface
     add "gui/interface/Screens/RK_Gameplay_Interface_inv.png"
     use interface_buttons2 
+
+
+# Il s'agit des menus du jeu rangés.
+
+# Menus uniques.
+
+
+# Daily Moments.
+# Menu du matin.
+
+# Menu de l'après-midi.
+
+# Menu du soir.
+
+# Cavern.
+
+
+# Village.
+
+# Menu principal village
+label menu_village:
+    mc_thought "Où vais-aller ?"
+    menu: 
+        "Aller à l'auberge": 
+            jump inns
+        "Aller au puit" if well_on:
+            jump well
+        "Aller chez le forgeron" if forge_on:
+            jump forge
+        "Se promener":
+            jump walking_village
+    return
+
+# Menu GotoVillage_01_Isis
+label menu_intro_isis_01:
+    mc_thought "Est-ce que je regarde ?"
+    menu:
+        "Oh oui !!": 
+            call MC_01_corr
+        "Non, je ne peux pas...":
+            jump pre_corruption
+    return 
+
+label MC_01_corr:
+    scene page_test_1 with fade
+    mc_thought "Elle a de si beaux tétons..."
+    # images x2 de la potrine de Isis.
+    isi "#é ..!! #é ..!! "
+    # scene screen image isis appel MC xith vpunch.
+    jump pre_corruption
+
+
+label pre_corruption:
+    no "Vous venez de faire votre premier choix narratif."
+    no "Vous aviez ici la possibiité d'augmenter la corruption du MC."
+    no "Ces informations sont disponibles en bas à gauhe de votre GamePlay."
+    no "Plus le MC est corrompu et plus ses actions auront tendances à être ..."
+    no "..."
+    no "...Discutable..."
+    no "Cela fonctionne de la même manière avec pour les filles."
+    
+    # Fin de l'information courruption.
+    jump GotoVillage_02
+
+# Menu Rêves
+# Rêve 1 ------------- Le monde d'avant ----------------
+
+
+#________________________________________________________________________________________________
 
 
 

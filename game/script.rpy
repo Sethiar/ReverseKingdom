@@ -9,6 +9,6 @@
 # Let's Go.
 label start:
 
-    jump interface_test
+    jump prologue
     
     return 

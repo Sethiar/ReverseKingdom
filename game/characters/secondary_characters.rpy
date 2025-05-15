@@ -1,14 +1,14 @@
 
-            #-----------------------------------------------------------------------#
-                #---------------------------------------------------------------#
-                  # Déclaration des personnages utilisés dans le jeu.
-                #---------------------------------------------------------------#
-            #-----------------------------------------------------------------------#
+#-----------------------------------------------------------------------#
+#---------------------------------------------------------------#
+# Déclaration des personnages utilisés dans le jeu.
+#---------------------------------------------------------------#
+#-----------------------------------------------------------------------#
 
 
-            #===================================================================#
-                  # Personnages du village de Kernel
-            #===================================================================#
+#===================================================================#
+# Personnages du village de Kernel
+#===================================================================#
 
 
 
@@ -18,7 +18,7 @@
 define mas = Character('Anonymous Master', color="#DE7915") #-- bleu clair -- AnonymousMaster
 
 #  Village Kernel #
-define innF = Character('Ingrid', color="#DE7915") #-- rose clair -- Innskeeper's wife
+define innF = Character('Ingrid', color="#f55027") #-- rose clair -- Innskeeper's wife
 define innM = Character('Innskeeper', color="#DE7915") #-- bleu clair
 define cl = Character('Clara', color="#DE7915") #-- rouge bordeau -- Mother MC Realworld
 define sis = Character('Marguerite', color="#DE7915") #-- violet -- Sister MC Realworld

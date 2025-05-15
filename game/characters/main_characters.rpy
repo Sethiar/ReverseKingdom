@@ -15,8 +15,8 @@
 
 # -- Personnages généraux -----------------------------------------------------
 define no = Character('Nosiris', color="#DE7915") #-- white
-define vf = Character('Voix Féminine', color="#DE7915") #-- rose fushia
-define vm = Character('Voix Masculine', color="#DE7915") #-- bleu foncé violet clair
+define vf = Character('Inconnue', color="#e61677") #-- rose fushia
+define vm = Character('Inconnu', color="#DE7915") #-- bleu foncé violet clair
 define nar = Character('Anonymous', color="#DE7915") #-- white
 define son = Character('Bruit', color="#DE7915") #-- grey
 
