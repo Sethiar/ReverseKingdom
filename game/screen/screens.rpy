@@ -86,7 +86,6 @@ style frame:
 
 
 
-
 screen cadre_frame():
     if frame_ON:
 
@@ -95,10 +94,21 @@ screen cadre_frame():
             xfill True
             yfill True
 
-# Fonction pour marker tuto.
-screen tuto_mark(pos_x=60, pos_y=160):
-    tag tuto
-    add tuto_marker_anim pos (pos_x, pos_y)
+screen arrow_1():
+    add "gui/interface/Effects/Arrow_1.png": 
+        at move_arrow(180)
+
+screen arrow_2():
+    add "gui/interface/Effects/Arrow_1.png": 
+        at move_arrow(280)      
+
+screen arrow_3():
+    add "gui/interface/Effects/Arrow_1.png": 
+        at move_arrow(380)
+
+transform move_arrow(y):
+    xpos 270 ypos y
+    linear 1.0 xpos 155
 
 
 # Accès à l'interface.
@@ -188,6 +198,21 @@ screen interface_inv():
     use interface_buttons2 
 
 
+#---------------------------------------------------------------------#
+# Screen des tutoriels.
+#---------------------------------------------------------------------#
+# Screen hunt.
+screen hunt_Gameplay:
+    tag interface
+    add "gui/minigames/hunt/background/bg_huntGameplay.png"
+
+
+
+
+# Screen dream.
+# Screen intelligence.
+
+#---------------------------------------------------------------------
 # Il s'agit des menus du jeu rangés.
 
 # Menus uniques.
@@ -219,36 +244,9 @@ label menu_village:
             jump walking_village
     return
 
-# Menu GotoVillage_01_Isis
-label menu_intro_isis_01:
-    mc_thought "Est-ce que je regarde ?"
-    menu:
-        "Oh oui !!": 
-            call MC_01_corr
-        "Non, je ne peux pas...":
-            jump pre_corruption
-    return 
 
-label MC_01_corr:
-    scene page_test_1 with fade
-    mc_thought "Elle a de si beaux tétons..."
-    # images x2 de la potrine de Isis.
-    isi "#é ..!! #é ..!! "
-    # scene screen image isis appel MC xith vpunch.
-    jump pre_corruption
-
-
-label pre_corruption:
-    no "Vous venez de faire votre premier choix narratif."
-    no "Vous aviez ici la possibiité d'augmenter la corruption du MC."
-    no "Ces informations sont disponibles en bas à gauhe de votre GamePlay."
-    no "Plus le MC est corrompu et plus ses actions auront tendances à être ..."
-    no "..."
-    no "...Discutable..."
-    no "Cela fonctionne de la même manière avec pour les filles."
-    
     # Fin de l'information courruption.
-    jump GotoVillage_02
+    
 
 # Menu Rêves
 # Rêve 1 ------------- Le monde d'avant ----------------

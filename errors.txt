@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/logic/tutoriel.rpy", line 131: expected 'label_name_declare' not found.
-    label
-         ^
+File "game/screens.rpy", line 130: Line with id interface_main_08b0b9a2 appears twice. The other line is game/screen/screens.rpyc:130
 
-File "game/screen/ui_dream_reflex.rpy", line 4: imagebutton expects a non-empty block.
-    imagebutton:
-                ^
+File "game/screens.rpy", line 235: Line with id menu_village_a95e7404 appears twice. The other line is game/screen/screens.rpyc:235
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Thu May 15 23:44:14 2025
+Sun May 18 20:19:27 2025

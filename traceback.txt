@@ -1,30 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script/act1.rpy", line 122, in script call
-    call menu_intro_isis_01
-  File "game/screens.rpy", line 227, in script call
-    call MC_01_corr
-  File "game/logic/tutoriel.rpy", line 76, in script
-    jump fuck_up
-ScriptError: could not find label 'fuck_up'.
+  File "game/constants/daily_constants.rpy", line 34, in script call
+    call constants_day
+  File "game/constants/daily_constants.rpy", line 15, in script
+    jump GoToVillage
+ScriptError: could not find label 'GoToVillage'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script/act1.rpy", line 122, in script call
-    call menu_intro_isis_01
-  File "game/screens.rpy", line 227, in script call
-    call MC_01_corr
-  File "game/logic/tutoriel.rpy", line 76, in script
-    jump fuck_up
+  File "game/constants/daily_constants.rpy", line 34, in script call
+    call constants_day
+  File "game/constants/daily_constants.rpy", line 15, in script
+    jump GoToVillage
   File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\ast.py", line 1712, in execute
     rv = renpy.game.script.lookup(target)
   File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\script.py", line 1103, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'fuck_up'.
+ScriptError: could not find label 'GoToVillage'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Reverse Kingdom 1.0
-Thu May 15 22:43:34 2025
+Sat May 17 00:11:23 2025

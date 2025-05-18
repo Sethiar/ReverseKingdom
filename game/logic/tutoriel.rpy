@@ -45,6 +45,9 @@ label start_tuto_dream:
     # Scène où on voit la porte des yeux du mc_thought.
     # image bg = "scene_intro_dream_5.png"
     label intro_dream:
+        # Mise à zéro des valeurs du mini-jeu.
+        $ dream_game.reset()
+
         mc_thought "Étant donné que je rêve"
         mc_thought "je peux faire ce que je veux !!!"
         # image bg = "scene_intro_dream_5.png"
@@ -64,6 +67,8 @@ label start_tuto_dream:
         return
 
     label scene_fuck_up:
+        
+        show screen awake_meter
         mc "Va te faire foutre, Salope !!"
         # image bg = scene_fuck_up.png
         # La porte s'ouvre violemment.
@@ -98,6 +103,8 @@ label start_tuto_dream:
                 jump tuto_dream_2    
             "Lui saisir violemment la tête et lui enfoncer la bite dans la gorge.":
                 jump max_corruption
+
+        # Selon la réponse il y aura le mini jeu ici DREAMGAMES
         return
 
     label go_on:
@@ -127,8 +134,15 @@ label start_tuto_dream:
             "Kiss my dick":
                 jump kiss_dick
         return
+    # DREAMGAMES
 
-    label
+    label kiss_dick:
+        # Les lèvres s'approchent du penis.
+        mc "Kiss my fucking dick !!!"
+        mc "....."
+    
+    
+    
     label max_corruption:
         pass
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -142,30 +156,25 @@ label start_tuto_dream:
 label start_tuto_hunt:
     # Constante pour affichage du menu.
     $ menu_tuto_hunt = False
-    
+
     show page_test_2 with dissolve
+    pause 1.0
+    
     no "Voici \"The Hunters Games\"."
-    # scene screen tuto_hunt_01
+    show page_test_3 with dissolve
     no "Le principe est simple : \"Chasser les Montres\"."
     no "Vous êtes le chasseur, ils sont les proies."
     
-    # scene screen hunt_interface
-    no "Sur cet écran, des objets cachent les monstres."
-    no "vous devez tirer dessus lorsqu'ils sont à vue."
-    no "Attention certains monstres sont plus féroces que d'autres."
-    no "Ils tenteront de vous attaquer."
+    # Ecran du GamePlay.
+    show screen hunt_Gameplay
+    no "Vous avez un total de 6 flèches."
+    show screen Arrow_hunt_1
 
-    # scene screen hunt_lose
-    no "Vous avez 6 flèches."
-    no "Si vous êtes blessé trois fois au cours de la chasse."
-    no "Vous revenez à la grotte."
-    no "Vous mettrez une demi journée à récupérer"
-    no "Et vous perdez la moitié de vos loots."
+    
+    hide screen hunt_Gameplay
     
     # scene screen cavern_fire
     no "Et voilà pour le tuto chasse."
-
-
 
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -177,7 +186,7 @@ label start_tuto_hunt:
 
 label start_tuto_mana:
     show page_test_3 with dissolve
-    no "L'entraînement à la magie consi  "
+    no "L'entraînement à la magie consiste "
 
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

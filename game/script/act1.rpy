@@ -117,12 +117,58 @@ label GoToVillage_01:
 
     mc_thought "Je vois son sein."
     mc_thought "Waah .."
-
+    
     # premier choix corruption du MC
-    call menu_intro_isis_01
+    mc_thought "Est-ce que je regarde ?"
+    menu:
+        "Oh oui !!":
+            $ corruption_mc += 1
+            jump MC_01_corr
+        "Non, je ne peux pas...":
+            $ holiness_mc += 1
+            jump MC_01_saint
+     
+    jump GotoVillage_02
+    return
+
+label MC_01_corr:
+    $ corruption_mc += 1
+    scene page_test_1 with fade
+    mc_thought "Elle a de si beaux tétons..."
     
-    call pre_corruption
+    # images x2 de la poitrine de Isis.
+    isi "#é ..!! #é ..!! "
     
+    scene page_test_2 with fade
+    no "Vous venez de faire votre premier choix narratif avec conséquences."
+    no "Vous aviez ici la possibiité d'augmenter la corruption du MC."
+    no "Ces informations sont disponibles en bas à gauhe de votre GamePlay."
+    no "Plus le MC est corrompu et plus ses actions auront tendances à être ..."
+    no "..."
+    no "...Discutable..."
+    no "Cela fonctionne de la même manière avec pour les filles."
+    jump GotoVillage_02
+    return
+
+label MC_01_saint:
+    $ holiness_mc += 1
+    scene page_test_1 with fade
+    mc_thought "Non, je ne peux pas, je dois la respecter."    
+    
+    scene page_test_3 with fade
+    no "Vous venez de faire votre premier choix narratif avec conséquences."
+    no "Vous aviez ici la possibiité d'augmenter soit la corruption du MC soit sa sainteté."
+    no "Ces informations sont disponibles en bas à gauhe de votre GamePlay."
+    
+    # screen RK_GamePlay.png 
+    no "Plus le MC est corrompu et plus ses actions auront tendances à être ..."
+    no "Disons..."
+    no "...Discutable..."
+    no "Cela fonctionne de la même manière avec pour les filles."
+    jump GotoVillage_02
+    return
+
+
 label GotoVillage_02:
     # Isis montre sa bouche et l'auberge.
     isi "'_' à&)à =&5è ?!"
@@ -178,16 +224,114 @@ label GotoVillage_02:
     innF "ç àà& & )."
     # Mc Salue.
     mc_thought "Elle est très belle aussi. Et cette paire de fesses..."
-    # Mc part, nuit tombe sur le village.
+    # Mc part, nuit tombe sur le village with fade.
     mc_thought "Bon rentrons."
 
     # MC s'aperçoit que quelqu'un le suit.
+    mc_thought "C'est bizarre, je ressens quelque chose..."
+    mc_thought "Comme si il y avait quelque chose derrière moi..."
+    mc_thought "Quelque chose de malfaisant, de noir..."
+    mc_thought "Je dois en être sûr."
     # il parvient à le semer dans le village.
+    mc_thought "Je vais aller vers le terrain de chasse, je connais un peu mieux le terrain et je crois que j'ai une cachette..."
+
+    # Images pour perdre dans la forêt.
+    mc_thought "Heureusement que j'ai été à la chasse ce matin."
+    mc_thought "C'est par là... Non ... euh ..." 
+    mc_thought "Je suis perdu, je crois..."
+    mc_thought "..."
+    
+    # Trouve la souche creuse.
+    mc_thought "Ah !! Voilà !!"
+    mc_thought "Je vais me cacher, ici."
+    mc_thought "Je vois de loin et personne ne peut me voir."
+    
+    scene page_test_3 with hpunch 
+    "Soudain"
+    
+    mc_thought "Il y a quelqu'un là-bas. C'est un..."
+    mc_thought "Un goblin !!"
+    mc_thought "Ainsi, c'est toi qui me suit depuis le village..."
+    mc_thought "Bon, je dois y faire attention à l'avenir."
+    
+    mc_thought "Je ne ressens plus rien."
+    mc_thought "Je peux rentrer tranquille."
+
     # Il rentre à la caverne, il ne ressent plus de suiveurs.
     mc_thought "Quelle journée !!"
+    mc_thought "J'ai un toit, un boulot, le ventre plein et une amie."
+    mc_thought "Isis..." 
+    mc_thought "..."
+    mc_thought "Qu'elle est belle !!"
 
-    # Image mc devant le feu à la Caverne.
-    # Après cette grosse journée. Le MC va se coucher. 
-    jump start_tuto_dream
+    # scene screen souvenir_seins_isis.png
+    mc_thought "Et ses seins..."
+    mc_thought "Son cul..."
+    mc_thought "Il y a aussi Ingrid, la femme de l'aubergiste..."
+    mc_thought "Elle est bien foutue aussi elle..."
+    mc_thought "Avec elle, je pourrais en faire des trucs..."
+    
+    # Menu souvenir MC avant le dodo.
+    label fantasm_choice:
+    menu:
+        "Penser à sa bouche.":
+            call fantasm_ingr_mouth
+        "Penser à ses fesses.":
+            $ corruption_mc +=1
+            call fantasm_ingr_ass
+        "Ne rien faire":
+            $ holiness_mc +=1
+            jump end_first_day
+    jump end_first_day        
 
+# Choix fantasme bouche.    
+label fantasm_ingr_mouth:
+    $ corruption_mc +=1
+    # scene ing_mouth01.png
+    # scene ing_mouth02.png
+    # scene ing_mouth03.png
+    mc_thought "MOUTH !!!!"
     return
+
+# Choix fantasme Fesses.    
+label fantasm_ingr_ass:
+    $ corruption_mc +=1
+    # scene ing_ass01.png
+    # scene ing_ass02.png
+    # scene ing_ass03.png
+    mc_thought "ASS !!!!"
+    return
+        
+# Fin de journée.
+label end_first_day:
+    # MC près du feu.
+    mc_thought "Ma première nuit dans ce nouveau monde."
+    mc_thought "Le ciel est merveilleux ici..."
+    mc_thought "J'espère que des réponses vont venir bientôt."
+    
+    # Sceen screen Vox. x 3
+    mc_thought "Qu'est ce qui m'est arrivé avec l'autre folle ??"
+    mc_thought " Est-ce à cause de ca que je peux ressentir la magie ?"
+    
+    # scene screen vollage et indigènes.
+    mc_thought "Où est-ce que je suis ?"
+    mc_thought "Qu'est ce que je dois faire ??"
+    mc_thought "..."
+    # Le MC se lève est regarde le ciel.
+    mc "Hé !! Vox, t'es là ??"
+    mc "C'est toi qui me fait ce coup là ?"
+    mc "Répond-moi !!!"
+    mc "Répond-moi, espèce de pute !!"
+    mc "..."
+    
+    # Le MC retourne vers la grotte.
+    mc_thought "Pour l'instant, le plus important est de faire attention à ce goblin"
+    mc_thought "et de garder cet endroit secret."
+
+    # Après cette grosse journée. Le MC va se coucher.
+    # scene mc surpanquette.png
+    mc_thought "J'ai mérité de dormir."
+    mc_thought "..."
+    mc_thought " Vox, espèce de salope."
+
+    jump start_tuto_dream

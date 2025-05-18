@@ -6,9 +6,7 @@
 
 image cadre_frame = "gui/RK-FrameGame.png"
 
-
-
-
+# introduction à l'interface utilisateur.
 # Script qui permet de tester l'interface.
 label interface_test:
     scene black with squares
@@ -26,12 +24,6 @@ label interface_test:
     return
     
     no "Ah, pas mal "
-
-label test_anim:
-    scene black
-    show tuto_marker_anim at truecenter
-    "Est-ce que l'animation clignote ?"
-    return
 
 
 # Script du tutoriel de l'interface utilisateur.
@@ -56,43 +48,84 @@ label tuto_interface:
 
     # Affichage des îcones sur l'écran.
     show screen interface_buttons
-    show screen tuto_mark(pos_y=160)
+    # Affichage de la flèche.
     no "Pour accéder à l'interface vous devez cliquer sur cet icône."
-    
-    no "Nous êtes sur le menu principal de l'interface."
-    
+    show screen arrow_1
+    with dissolve
+    pause 1
+    hide screen arrow_1
+    with dissolve
 
     scene black with squares
     show screen interface_buttons
     
     no "Ensuite, vous avez l'icône des quêtes."
-    show screen tuto_mark(pos_y=260)
+    
     no "Vous accédez ainsi à toutes informations relatives aux quêtes."
-
+    show screen arrow_2
+    with dissolve
+    pause 1
+    hide screen arrow_2
+    with dissolve
+    
     scene black with squares
     show screen interface_buttons
 
     no "Et enfin l'icône des relations."
-    show screen tuto_mark(pos_y=360)
-    no "Vous accèderez de manière rapide aux informations relatives aux filels du jeu."
     
+    no "Vous accèderez de manière rapide aux informations relatives aux filels du jeu."
+    show screen arrow_3
+    with dissolve
+    pause 1
+    hide screen arrow_3
+    with dissolve 
+
     scene black with squares
     show screen interface_buttons
 
-    no "Depuis l'interface du jeu, vous avez..."
-    show RK_Gameplay_Interface 
-    
+    no "Depuis l'interface du jeu, vous avez accès à différentes sections utiles."
+
+    show RK_Gameplay_Interface
+    with dissolve
+    pause 0.5
+
     show screen interface_skills
+    with dissolve
     no "L'accès à vos compétences..."
-    no "Aux informations de quêtes et des relations."
+    pause 0.3
+
+    show screen interface_quest
+    with dissolve
+    no "Aux informations de quêtes..."
+    pause 0.3
+
+    show screen interface_rela
+    with dissolve
+    no "... et des relations."
+    pause 0.3
 
     show screen interface_equip
+    with dissolve
     no "Vous pourrez vous équiper ici."
+    pause 0.3
 
     show screen interface_inv
+    with dissolve
     no "Et enfin avoir accès à votre inventaire."
+    pause 0.5
+
+    # Fin du tuto : tout disparaît
+    hide screen interface_skills
+    hide screen interface_quest
+    hide screen interface_rela
+    hide screen interface_equip
+    hide screen interface_inv
+    hide RK_Gameplay_Interface
+    with fade
 
     scene black with vpunch
+    hide RK_Gameplay_Interface
+    with fade
     no "Et ho !! Vous dormez ?! Désolé pour la longue introduction mais c'était nécessaire."
 
     # image no dit aurevoir x5
@@ -113,11 +146,11 @@ label tuto_interface:
     # image bg = tuto_interface_02
     no "Et une nouvelle fois, merci beaucoup."
 
-
-    "Présentation du choix du tutoriel."
-    mc_thought "Je vais..."
-
-    # Présentation du choix du tutoriel.
+    # Suite de l'introduction.
+    scene white with dissolve
+    pause 1.0
+    scene page_test_3 with dissolve
+    pause 1.0
     jump first_choice
     return
     
