@@ -2,9 +2,729 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 130: Line with id interface_main_08b0b9a2 appears twice. The other line is game/screen/screens.rpyc:130
+File "game/script/act0.rpy", line 21: Line with id start_intro_5e5960b9 appears twice. The other line is game/script/Prologues/act0.rpy:21
 
-File "game/screens.rpy", line 235: Line with id menu_village_a95e7404 appears twice. The other line is game/screen/screens.rpyc:235
+File "game/script/act0.rpy", line 22: Line with id start_intro_6f89d109 appears twice. The other line is game/script/Prologues/act0.rpy:22
+
+File "game/script/act0.rpy", line 23: Line with id start_intro_c69b178f appears twice. The other line is game/script/Prologues/act0.rpy:23
+
+File "game/script/act0.rpy", line 24: Line with id start_intro_64ce05a5 appears twice. The other line is game/script/Prologues/act0.rpy:24
+
+File "game/script/act0.rpy", line 25: Line with id start_intro_eb47b067 appears twice. The other line is game/script/Prologues/act0.rpy:25
+
+File "game/script/act0.rpy", line 29: Line with id start_intro_94d31b9e appears twice. The other line is game/script/Prologues/act0.rpy:29
+
+File "game/script/act0.rpy", line 30: Line with id start_intro_3f173060 appears twice. The other line is game/script/Prologues/act0.rpy:30
+
+File "game/script/act0.rpy", line 32: Line with id start_intro_dc0d98e5 appears twice. The other line is game/script/Prologues/act0.rpy:32
+
+File "game/script/act0.rpy", line 39: Line with id start_intro_9ce3f2e0 appears twice. The other line is game/script/Prologues/act0.rpy:39
+
+File "game/script/act0.rpy", line 40: Line with id start_intro_c23ae658 appears twice. The other line is game/script/Prologues/act0.rpy:40
+
+File "game/script/act0.rpy", line 41: Line with id start_intro_5af703fd appears twice. The other line is game/script/Prologues/act0.rpy:41
+
+File "game/script/act0.rpy", line 42: Line with id start_intro_adceebe9 appears twice. The other line is game/script/Prologues/act0.rpy:42
+
+File "game/script/act0.rpy", line 43: Line with id start_intro_eef69dd0 appears twice. The other line is game/script/Prologues/act0.rpy:43
+
+File "game/script/act0.rpy", line 56: Line with id start_intro_4a3461cd appears twice. The other line is game/script/Prologues/act0.rpy:56
+
+File "game/script/act0.rpy", line 59: Line with id start_intro_0011778d appears twice. The other line is game/script/Prologues/act0.rpy:59
+
+File "game/script/act0.rpy", line 62: Line with id start_intro_43017e2e appears twice. The other line is game/script/Prologues/act0.rpy:62
+
+File "game/script/act0.rpy", line 63: Line with id start_intro_0e5e117e appears twice. The other line is game/script/Prologues/act0.rpy:63
+
+File "game/script/act0.rpy", line 66: Line with id start_intro_d456ed29 appears twice. The other line is game/script/Prologues/act0.rpy:66
+
+File "game/script/act0.rpy", line 73: Line with id start_intro_20df340b appears twice. The other line is game/script/Prologues/act0.rpy:73
+
+File "game/script/act0.rpy", line 76: Line with id start_intro_68d7bc51 appears twice. The other line is game/script/Prologues/act0.rpy:76
+
+File "game/script/act0.rpy", line 79: Line with id start_intro_b9f11426 appears twice. The other line is game/script/Prologues/act0.rpy:79
+
+File "game/script/act0.rpy", line 80: Line with id start_intro_d0032210 appears twice. The other line is game/script/Prologues/act0.rpy:80
+
+File "game/script/act0.rpy", line 83: Line with id start_intro_ca8c969b appears twice. The other line is game/script/Prologues/act0.rpy:83
+
+File "game/script/act0.rpy", line 85: Line with id start_intro_6852ddfd appears twice. The other line is game/script/Prologues/act0.rpy:85
+
+File "game/script/act0.rpy", line 87: Line with id start_intro_bf4b1c43 appears twice. The other line is game/script/Prologues/act0.rpy:87
+
+File "game/script/act0.rpy", line 88: Line with id start_intro_eca6f815 appears twice. The other line is game/script/Prologues/act0.rpy:88
+
+File "game/script/act0.rpy", line 90: Line with id start_intro_6923dc77 appears twice. The other line is game/script/Prologues/act0.rpy:90
+
+File "game/script/act0.rpy", line 94: Line with id start_intro_4cb77283 appears twice. The other line is game/script/Prologues/act0.rpy:94
+
+File "game/script/act0.rpy", line 96: Line with id start_intro_c1ef435a appears twice. The other line is game/script/Prologues/act0.rpy:96
+
+File "game/script/act0.rpy", line 99: Line with id start_intro_2cd3908e appears twice. The other line is game/script/Prologues/act0.rpy:99
+
+File "game/script/act0.rpy", line 102: Line with id start_intro_8601d1b6 appears twice. The other line is game/script/Prologues/act0.rpy:102
+
+File "game/script/act0.rpy", line 106: Line with id start_intro_787b439a appears twice. The other line is game/script/Prologues/act0.rpy:106
+
+File "game/script/act0.rpy", line 108: Line with id start_intro_69e1f1f7 appears twice. The other line is game/script/Prologues/act0.rpy:108
+
+File "game/script/act0.rpy", line 111: Line with id start_intro_f415f3da appears twice. The other line is game/script/Prologues/act0.rpy:111
+
+File "game/script/act0.rpy", line 113: Line with id start_intro_f20eabd2 appears twice. The other line is game/script/Prologues/act0.rpy:113
+
+File "game/script/act0.rpy", line 115: Line with id start_intro_17cef217 appears twice. The other line is game/script/Prologues/act0.rpy:115
+
+File "game/script/act0.rpy", line 117: Line with id start_intro_c125edc9 appears twice. The other line is game/script/Prologues/act0.rpy:117
+
+File "game/script/act0.rpy", line 119: Line with id start_intro_e992c1ff appears twice. The other line is game/script/Prologues/act0.rpy:119
+
+File "game/script/act0.rpy", line 121: Line with id start_intro_d3583e58 appears twice. The other line is game/script/Prologues/act0.rpy:121
+
+File "game/script/act0.rpy", line 125: Line with id start_intro_269cc59a appears twice. The other line is game/script/Prologues/act0.rpy:125
+
+File "game/script/act0.rpy", line 126: Line with id start_intro_7f161984 appears twice. The other line is game/script/Prologues/act0.rpy:126
+
+File "game/script/act0.rpy", line 129: Line with id start_intro_c757a0dd appears twice. The other line is game/script/Prologues/act0.rpy:129
+
+File "game/script/act0.rpy", line 132: Line with id start_intro_0b567b98 appears twice. The other line is game/script/Prologues/act0.rpy:132
+
+File "game/script/act0.rpy", line 135: Line with id start_intro_d060df51 appears twice. The other line is game/script/Prologues/act0.rpy:135
+
+File "game/script/act0.rpy", line 139: Line with id start_intro_7e140609 appears twice. The other line is game/script/Prologues/act0.rpy:139
+
+File "game/script/act0.rpy", line 142: Line with id start_intro_f3fb2425 appears twice. The other line is game/script/Prologues/act0.rpy:142
+
+File "game/script/act0.rpy", line 145: Line with id start_intro_d084c8a1 appears twice. The other line is game/script/Prologues/act0.rpy:145
+
+File "game/script/act0.rpy", line 152: Line with id start_intro_58d06d2c appears twice. The other line is game/script/Prologues/act0.rpy:152
+
+File "game/script/act0.rpy", line 153: Line with id start_intro_071e9e56 appears twice. The other line is game/script/Prologues/act0.rpy:153
+
+File "game/script/act0.rpy", line 154: Line with id start_intro_2d4bd97f appears twice. The other line is game/script/Prologues/act0.rpy:154
+
+File "game/script/act0.rpy", line 155: Line with id start_intro_2de6ca36 appears twice. The other line is game/script/Prologues/act0.rpy:155
+
+File "game/script/act0.rpy", line 156: Line with id start_intro_ff79702a appears twice. The other line is game/script/Prologues/act0.rpy:156
+
+File "game/script/act0.rpy", line 158: Line with id start_intro_368d59a7 appears twice. The other line is game/script/Prologues/act0.rpy:158
+
+File "game/script/act0.rpy", line 159: Line with id start_intro_cbe44cfe appears twice. The other line is game/script/Prologues/act0.rpy:159
+
+File "game/script/act0.rpy", line 161: Line with id start_intro_cfe25bbf appears twice. The other line is game/script/Prologues/act0.rpy:161
+
+File "game/script/act0.rpy", line 162: Line with id start_intro_993ab5ac appears twice. The other line is game/script/Prologues/act0.rpy:162
+
+File "game/script/act0.rpy", line 163: Line with id start_intro_e329fef8 appears twice. The other line is game/script/Prologues/act0.rpy:163
+
+File "game/script/act0.rpy", line 164: Line with id start_intro_54437bca appears twice. The other line is game/script/Prologues/act0.rpy:164
+
+File "game/script/act0.rpy", line 165: Line with id start_intro_99c5bebe appears twice. The other line is game/script/Prologues/act0.rpy:165
+
+File "game/script/act0.rpy", line 168: Line with id start_intro_7462751d appears twice. The other line is game/script/Prologues/act0.rpy:168
+
+File "game/script/act0.rpy", line 172: Line with id start_intro_6ea95526 appears twice. The other line is game/script/Prologues/act0.rpy:172
+
+File "game/script/act0.rpy", line 179: Line with id start_intro_94d31b9e_1 appears twice. The other line is game/script/Prologues/act0.rpy:179
+
+File "game/script/act0.rpy", line 180: Line with id start_intro_36d5ae5f appears twice. The other line is game/script/Prologues/act0.rpy:180
+
+File "game/script/act0.rpy", line 181: Line with id start_intro_0d5626c3 appears twice. The other line is game/script/Prologues/act0.rpy:181
+
+File "game/script/act0.rpy", line 184: Line with id start_intro_871a12ad appears twice. The other line is game/script/Prologues/act0.rpy:184
+
+File "game/script/act0.rpy", line 185: Line with id start_intro_1e1c79da appears twice. The other line is game/script/Prologues/act0.rpy:185
+
+File "game/script/act0.rpy", line 187: Line with id start_intro_71d2f25d appears twice. The other line is game/script/Prologues/act0.rpy:187
+
+File "game/script/act0.rpy", line 188: Line with id start_intro_98b12c95 appears twice. The other line is game/script/Prologues/act0.rpy:188
+
+File "game/script/act0.rpy", line 192: Line with id start_intro_2345e1b7 appears twice. The other line is game/script/Prologues/act0.rpy:192
+
+File "game/script/act0.rpy", line 193: Line with id start_intro_a8acb40d appears twice. The other line is game/script/Prologues/act0.rpy:193
+
+File "game/script/act0.rpy", line 195: Line with id start_intro_34660647 appears twice. The other line is game/script/Prologues/act0.rpy:195
+
+File "game/script/act0.rpy", line 196: Line with id start_intro_34660647_1 appears twice. The other line is game/script/Prologues/act0.rpy:196
+
+File "game/script/act0.rpy", line 201: Line with id start_intro_f2d6b211 appears twice. The other line is game/script/Prologues/act0.rpy:201
+
+File "game/script/act0.rpy", line 203: Line with id start_intro_f20eabd2_1 appears twice. The other line is game/script/Prologues/act0.rpy:203
+
+File "game/script/act0.rpy", line 205: Line with id start_intro_90535669 appears twice. The other line is game/script/Prologues/act0.rpy:205
+
+File "game/script/act0.rpy", line 207: Line with id start_intro_6aead260 appears twice. The other line is game/script/Prologues/act0.rpy:207
+
+File "game/script/act0.rpy", line 209: Line with id start_intro_d53ee76f appears twice. The other line is game/script/Prologues/act0.rpy:209
+
+File "game/script/act1.rpy", line 22: Line with id GoToVillage_01_e82347da appears twice. The other line is game/script/Prologues/act1.rpy:22
+
+File "game/script/act1.rpy", line 23: Line with id GoToVillage_01_d65c5d0a appears twice. The other line is game/script/Prologues/act1.rpy:23
+
+File "game/script/act1.rpy", line 24: Line with id GoToVillage_01_2a5ddd7d appears twice. The other line is game/script/Prologues/act1.rpy:24
+
+File "game/script/act1.rpy", line 25: Line with id GoToVillage_01_7312b2e6 appears twice. The other line is game/script/Prologues/act1.rpy:25
+
+File "game/script/act1.rpy", line 26: Line with id GoToVillage_01_c6cceb95 appears twice. The other line is game/script/Prologues/act1.rpy:26
+
+File "game/script/act1.rpy", line 28: Line with id GoToVillage_01_746dd1de appears twice. The other line is game/script/Prologues/act1.rpy:28
+
+File "game/script/act1.rpy", line 33: Line with id GoToVillage_01_bca87241 appears twice. The other line is game/script/Prologues/act1.rpy:33
+
+File "game/script/act1.rpy", line 35: Line with id GoToVillage_01_93f980d3 appears twice. The other line is game/script/Prologues/act1.rpy:35
+
+File "game/script/act1.rpy", line 37: Line with id GoToVillage_01_1ef71b58 appears twice. The other line is game/script/Prologues/act1.rpy:37
+
+File "game/script/act1.rpy", line 39: Line with id GoToVillage_01_beec3d04 appears twice. The other line is game/script/Prologues/act1.rpy:39
+
+File "game/script/act1.rpy", line 43: Line with id GoToVillage_01_e766c5a4 appears twice. The other line is game/script/Prologues/act1.rpy:43
+
+File "game/script/act1.rpy", line 44: Line with id GoToVillage_01_76d01d8c appears twice. The other line is game/script/Prologues/act1.rpy:44
+
+File "game/script/act1.rpy", line 47: Line with id GoToVillage_01_7cd7bd86 appears twice. The other line is game/script/Prologues/act1.rpy:47
+
+File "game/script/act1.rpy", line 48: Line with id GoToVillage_01_a05f5b9e appears twice. The other line is game/script/Prologues/act1.rpy:48
+
+File "game/script/act1.rpy", line 49: Line with id GoToVillage_01_b14db703 appears twice. The other line is game/script/Prologues/act1.rpy:49
+
+File "game/script/act1.rpy", line 51: Line with id GoToVillage_01_98605de7 appears twice. The other line is game/script/Prologues/act1.rpy:51
+
+File "game/script/act1.rpy", line 53: Line with id GoToVillage_01_aa1a7e19 appears twice. The other line is game/script/Prologues/act1.rpy:53
+
+File "game/script/act1.rpy", line 54: Line with id GoToVillage_01_3c8f43a0 appears twice. The other line is game/script/Prologues/act1.rpy:54
+
+File "game/script/act1.rpy", line 57: Line with id GoToVillage_01_dc1a36ca appears twice. The other line is game/script/Prologues/act1.rpy:57
+
+File "game/script/act1.rpy", line 58: Line with id GoToVillage_01_b4744497 appears twice. The other line is game/script/Prologues/act1.rpy:58
+
+File "game/script/act1.rpy", line 59: Line with id GoToVillage_01_c2aa1740 appears twice. The other line is game/script/Prologues/act1.rpy:59
+
+File "game/script/act1.rpy", line 62: Line with id GoToVillage_01_fb648933 appears twice. The other line is game/script/Prologues/act1.rpy:62
+
+File "game/script/act1.rpy", line 63: Line with id GoToVillage_01_ec587cc6 appears twice. The other line is game/script/Prologues/act1.rpy:63
+
+File "game/script/act1.rpy", line 66: Line with id GoToVillage_01_484dc536 appears twice. The other line is game/script/Prologues/act1.rpy:66
+
+File "game/script/act1.rpy", line 69: Line with id GoToVillage_01_670f934d appears twice. The other line is game/script/Prologues/act1.rpy:69
+
+File "game/script/act1.rpy", line 70: Line with id GoToVillage_01_c221d71b appears twice. The other line is game/script/Prologues/act1.rpy:70
+
+File "game/script/act1.rpy", line 73: Line with id GoToVillage_01_717c3f9d appears twice. The other line is game/script/Prologues/act1.rpy:73
+
+File "game/script/act1.rpy", line 78: Line with id GoToVillage_01_f0f2ea24 appears twice. The other line is game/script/Prologues/act1.rpy:78
+
+File "game/script/act1.rpy", line 79: Line with id GoToVillage_01_68ba182f appears twice. The other line is game/script/Prologues/act1.rpy:79
+
+File "game/script/act1.rpy", line 80: Line with id GoToVillage_01_a8ba6466 appears twice. The other line is game/script/Prologues/act1.rpy:80
+
+File "game/script/act1.rpy", line 84: Line with id GoToVillage_01_78a48999 appears twice. The other line is game/script/Prologues/act1.rpy:84
+
+File "game/script/act1.rpy", line 85: Line with id GoToVillage_01_0f5623c5 appears twice. The other line is game/script/Prologues/act1.rpy:85
+
+File "game/script/act1.rpy", line 89: Line with id GoToVillage_01_3e70a195 appears twice. The other line is game/script/Prologues/act1.rpy:89
+
+File "game/script/act1.rpy", line 90: Line with id GoToVillage_01_143aa991 appears twice. The other line is game/script/Prologues/act1.rpy:90
+
+File "game/script/act1.rpy", line 93: Line with id GoToVillage_01_3721b15e appears twice. The other line is game/script/Prologues/act1.rpy:93
+
+File "game/script/act1.rpy", line 94: Line with id GoToVillage_01_1b29ba91 appears twice. The other line is game/script/Prologues/act1.rpy:94
+
+File "game/script/act1.rpy", line 95: Line with id GoToVillage_01_f20eabd2 appears twice. The other line is game/script/Prologues/act1.rpy:95
+
+File "game/script/act1.rpy", line 96: Line with id GoToVillage_01_ef36b89b appears twice. The other line is game/script/Prologues/act1.rpy:96
+
+File "game/script/act1.rpy", line 97: Line with id GoToVillage_01_00d9d537 appears twice. The other line is game/script/Prologues/act1.rpy:97
+
+File "game/script/act1.rpy", line 99: Line with id GoToVillage_01_6fa070f7 appears twice. The other line is game/script/Prologues/act1.rpy:99
+
+File "game/script/act1.rpy", line 100: Line with id GoToVillage_01_7218b282 appears twice. The other line is game/script/Prologues/act1.rpy:100
+
+File "game/script/act1.rpy", line 103: Line with id GoToVillage_01_16e4278d appears twice. The other line is game/script/Prologues/act1.rpy:103
+
+File "game/script/act1.rpy", line 104: Line with id GoToVillage_01_0745ab23 appears twice. The other line is game/script/Prologues/act1.rpy:104
+
+File "game/script/act1.rpy", line 111: Line with id GoToVillage_01_7969684e appears twice. The other line is game/script/Prologues/act1.rpy:111
+
+File "game/script/act1.rpy", line 112: Line with id GoToVillage_01_7b534229 appears twice. The other line is game/script/Prologues/act1.rpy:112
+
+File "game/script/act1.rpy", line 113: Line with id GoToVillage_01_cee3be3d appears twice. The other line is game/script/Prologues/act1.rpy:113
+
+File "game/script/act1.rpy", line 116: Line with id GoToVillage_01_d2ae1a17 appears twice. The other line is game/script/Prologues/act1.rpy:116
+
+File "game/script/act1.rpy", line 117: Line with id GoToVillage_01_cf42abbf appears twice. The other line is game/script/Prologues/act1.rpy:117
+
+File "game/script/act1.rpy", line 119: Line with id GoToVillage_01_d24dc806 appears twice. The other line is game/script/Prologues/act1.rpy:119
+
+File "game/script/act1.rpy", line 120: Line with id GoToVillage_01_d153c72a appears twice. The other line is game/script/Prologues/act1.rpy:120
+
+File "game/script/act1.rpy", line 123: Line with id GoToVillage_01_4a52a7ff appears twice. The other line is game/script/Prologues/act1.rpy:123
+
+File "game/script/act1.rpy", line 138: Line with id MC_01_corr_ff8e4d98 appears twice. The other line is game/script/Prologues/act1.rpy:138
+
+File "game/script/act1.rpy", line 141: Line with id MC_01_corr_a413866a appears twice. The other line is game/script/Prologues/act1.rpy:141
+
+File "game/script/act1.rpy", line 144: Line with id MC_01_corr_ee0278ae appears twice. The other line is game/script/Prologues/act1.rpy:144
+
+File "game/script/act1.rpy", line 145: Line with id MC_01_corr_188ef96c appears twice. The other line is game/script/Prologues/act1.rpy:145
+
+File "game/script/act1.rpy", line 146: Line with id MC_01_corr_e652a59c appears twice. The other line is game/script/Prologues/act1.rpy:146
+
+File "game/script/act1.rpy", line 147: Line with id MC_01_corr_ceaf7440 appears twice. The other line is game/script/Prologues/act1.rpy:147
+
+File "game/script/act1.rpy", line 148: Line with id MC_01_corr_e1b1ea29 appears twice. The other line is game/script/Prologues/act1.rpy:148
+
+File "game/script/act1.rpy", line 149: Line with id MC_01_corr_a951fe1c appears twice. The other line is game/script/Prologues/act1.rpy:149
+
+File "game/script/act1.rpy", line 150: Line with id MC_01_corr_53c0989a appears twice. The other line is game/script/Prologues/act1.rpy:150
+
+File "game/script/act1.rpy", line 157: Line with id MC_01_saint_0f0e75d4 appears twice. The other line is game/script/Prologues/act1.rpy:157
+
+File "game/script/act1.rpy", line 160: Line with id MC_01_saint_ee0278ae appears twice. The other line is game/script/Prologues/act1.rpy:160
+
+File "game/script/act1.rpy", line 161: Line with id MC_01_saint_80f36d5b appears twice. The other line is game/script/Prologues/act1.rpy:161
+
+File "game/script/act1.rpy", line 162: Line with id MC_01_saint_e652a59c appears twice. The other line is game/script/Prologues/act1.rpy:162
+
+File "game/script/act1.rpy", line 165: Line with id MC_01_saint_ceaf7440 appears twice. The other line is game/script/Prologues/act1.rpy:165
+
+File "game/script/act1.rpy", line 166: Line with id MC_01_saint_ccbff2ec appears twice. The other line is game/script/Prologues/act1.rpy:166
+
+File "game/script/act1.rpy", line 167: Line with id MC_01_saint_a951fe1c appears twice. The other line is game/script/Prologues/act1.rpy:167
+
+File "game/script/act1.rpy", line 168: Line with id MC_01_saint_53c0989a appears twice. The other line is game/script/Prologues/act1.rpy:168
+
+File "game/script/act1.rpy", line 175: Line with id GotoVillage_02_b1ea89a0 appears twice. The other line is game/script/Prologues/act1.rpy:175
+
+File "game/script/act1.rpy", line 176: Line with id GotoVillage_02_190f3c0d appears twice. The other line is game/script/Prologues/act1.rpy:176
+
+File "game/script/act1.rpy", line 179: Line with id GotoVillage_02_7eaca766 appears twice. The other line is game/script/Prologues/act1.rpy:179
+
+File "game/script/act1.rpy", line 180: Line with id GotoVillage_02_bb8dae69 appears twice. The other line is game/script/Prologues/act1.rpy:180
+
+File "game/script/act1.rpy", line 183: Line with id GotoVillage_02_a65cab49 appears twice. The other line is game/script/Prologues/act1.rpy:183
+
+File "game/script/act1.rpy", line 184: Line with id GotoVillage_02_c334e33f appears twice. The other line is game/script/Prologues/act1.rpy:184
+
+File "game/script/act1.rpy", line 185: Line with id GotoVillage_02_cf1e27a0 appears twice. The other line is game/script/Prologues/act1.rpy:185
+
+File "game/script/act1.rpy", line 193: Line with id GotoVillage_02_37e710ca appears twice. The other line is game/script/Prologues/act1.rpy:193
+
+File "game/script/act1.rpy", line 194: Line with id GotoVillage_02_4c734333 appears twice. The other line is game/script/Prologues/act1.rpy:194
+
+File "game/script/act1.rpy", line 195: Line with id GotoVillage_02_8b77ee96 appears twice. The other line is game/script/Prologues/act1.rpy:195
+
+File "game/script/act1.rpy", line 196: Line with id GotoVillage_02_04db0451 appears twice. The other line is game/script/Prologues/act1.rpy:196
+
+File "game/script/act1.rpy", line 200: Line with id GotoVillage_02_c0e70b21 appears twice. The other line is game/script/Prologues/act1.rpy:200
+
+File "game/script/act1.rpy", line 205: Line with id GotoVillage_02_2c48e172 appears twice. The other line is game/script/Prologues/act1.rpy:205
+
+File "game/script/act1.rpy", line 206: Line with id GotoVillage_02_c3c78de6 appears twice. The other line is game/script/Prologues/act1.rpy:206
+
+File "game/script/act1.rpy", line 215: Line with id GotoVillage_02_57343128 appears twice. The other line is game/script/Prologues/act1.rpy:215
+
+File "game/script/act1.rpy", line 216: Line with id GotoVillage_02_84bb38e4 appears twice. The other line is game/script/Prologues/act1.rpy:216
+
+File "game/script/act1.rpy", line 217: Line with id GotoVillage_02_b2cd7e5d appears twice. The other line is game/script/Prologues/act1.rpy:217
+
+File "game/script/act1.rpy", line 218: Line with id GotoVillage_02_f851f164 appears twice. The other line is game/script/Prologues/act1.rpy:218
+
+File "game/script/act1.rpy", line 219: Line with id GotoVillage_02_1da91b6d appears twice. The other line is game/script/Prologues/act1.rpy:219
+
+File "game/script/act1.rpy", line 222: Line with id GotoVillage_02_817e7251 appears twice. The other line is game/script/Prologues/act1.rpy:222
+
+File "game/script/act1.rpy", line 223: Line with id GotoVillage_02_1aeef00c appears twice. The other line is game/script/Prologues/act1.rpy:223
+
+File "game/script/act1.rpy", line 225: Line with id GotoVillage_02_a4a692a0 appears twice. The other line is game/script/Prologues/act1.rpy:225
+
+File "game/script/act1.rpy", line 227: Line with id GotoVillage_02_5ba85a98 appears twice. The other line is game/script/Prologues/act1.rpy:227
+
+File "game/script/act1.rpy", line 229: Line with id GotoVillage_02_268c5f30 appears twice. The other line is game/script/Prologues/act1.rpy:229
+
+File "game/script/act1.rpy", line 232: Line with id GotoVillage_02_08323177 appears twice. The other line is game/script/Prologues/act1.rpy:232
+
+File "game/script/act1.rpy", line 233: Line with id GotoVillage_02_d127132e appears twice. The other line is game/script/Prologues/act1.rpy:233
+
+File "game/script/act1.rpy", line 234: Line with id GotoVillage_02_6df64a6f appears twice. The other line is game/script/Prologues/act1.rpy:234
+
+File "game/script/act1.rpy", line 235: Line with id GotoVillage_02_796714ea appears twice. The other line is game/script/Prologues/act1.rpy:235
+
+File "game/script/act1.rpy", line 237: Line with id GotoVillage_02_0c16349e appears twice. The other line is game/script/Prologues/act1.rpy:237
+
+File "game/script/act1.rpy", line 240: Line with id GotoVillage_02_e3f4a264 appears twice. The other line is game/script/Prologues/act1.rpy:240
+
+File "game/script/act1.rpy", line 241: Line with id GotoVillage_02_e0f31443 appears twice. The other line is game/script/Prologues/act1.rpy:241
+
+File "game/script/act1.rpy", line 242: Line with id GotoVillage_02_80473328 appears twice. The other line is game/script/Prologues/act1.rpy:242
+
+File "game/script/act1.rpy", line 243: Line with id GotoVillage_02_f20eabd2 appears twice. The other line is game/script/Prologues/act1.rpy:243
+
+File "game/script/act1.rpy", line 246: Line with id GotoVillage_02_25fc4b94 appears twice. The other line is game/script/Prologues/act1.rpy:246
+
+File "game/script/act1.rpy", line 247: Line with id GotoVillage_02_f8e4952a appears twice. The other line is game/script/Prologues/act1.rpy:247
+
+File "game/script/act1.rpy", line 248: Line with id GotoVillage_02_d6408b9f appears twice. The other line is game/script/Prologues/act1.rpy:248
+
+File "game/script/act1.rpy", line 251: Line with id GotoVillage_02_c95c7a15 appears twice. The other line is game/script/Prologues/act1.rpy:251
+
+File "game/script/act1.rpy", line 253: Line with id GotoVillage_02_f0218930 appears twice. The other line is game/script/Prologues/act1.rpy:253
+
+File "game/script/act1.rpy", line 254: Line with id GotoVillage_02_1fce3449 appears twice. The other line is game/script/Prologues/act1.rpy:254
+
+File "game/script/act1.rpy", line 255: Line with id GotoVillage_02_bc2e1248 appears twice. The other line is game/script/Prologues/act1.rpy:255
+
+File "game/script/act1.rpy", line 256: Line with id GotoVillage_02_45796363 appears twice. The other line is game/script/Prologues/act1.rpy:256
+
+File "game/script/act1.rpy", line 258: Line with id GotoVillage_02_d71adf6f appears twice. The other line is game/script/Prologues/act1.rpy:258
+
+File "game/script/act1.rpy", line 259: Line with id GotoVillage_02_8da6845f appears twice. The other line is game/script/Prologues/act1.rpy:259
+
+File "game/script/act1.rpy", line 262: Line with id GotoVillage_02_0a60a1b7 appears twice. The other line is game/script/Prologues/act1.rpy:262
+
+File "game/script/act1.rpy", line 263: Line with id GotoVillage_02_32a97444 appears twice. The other line is game/script/Prologues/act1.rpy:263
+
+File "game/script/act1.rpy", line 264: Line with id GotoVillage_02_ebaa4419 appears twice. The other line is game/script/Prologues/act1.rpy:264
+
+File "game/script/act1.rpy", line 265: Line with id GotoVillage_02_f20eabd2_1 appears twice. The other line is game/script/Prologues/act1.rpy:265
+
+File "game/script/act1.rpy", line 266: Line with id GotoVillage_02_ee07b7c3 appears twice. The other line is game/script/Prologues/act1.rpy:266
+
+File "game/script/act1.rpy", line 269: Line with id GotoVillage_02_68c1b799 appears twice. The other line is game/script/Prologues/act1.rpy:269
+
+File "game/script/act1.rpy", line 270: Line with id GotoVillage_02_109979f7 appears twice. The other line is game/script/Prologues/act1.rpy:270
+
+File "game/script/act1.rpy", line 271: Line with id GotoVillage_02_1ea6b811 appears twice. The other line is game/script/Prologues/act1.rpy:271
+
+File "game/script/act1.rpy", line 272: Line with id GotoVillage_02_de3bb05d appears twice. The other line is game/script/Prologues/act1.rpy:272
+
+File "game/script/act1.rpy", line 273: Line with id GotoVillage_02_2f31046a appears twice. The other line is game/script/Prologues/act1.rpy:273
+
+File "game/script/act1.rpy", line 294: Line with id fantasm_ingr_mouth_73f273fe appears twice. The other line is game/script/Prologues/act1.rpy:294
+
+File "game/script/act1.rpy", line 303: Line with id fantasm_ingr_ass_29406309 appears twice. The other line is game/script/Prologues/act1.rpy:303
+
+File "game/script/act1.rpy", line 309: Line with id end_first_day_eccaf794 appears twice. The other line is game/script/Prologues/act1.rpy:309
+
+File "game/script/act1.rpy", line 310: Line with id end_first_day_d1d632c0 appears twice. The other line is game/script/Prologues/act1.rpy:310
+
+File "game/script/act1.rpy", line 311: Line with id end_first_day_23fb07b3 appears twice. The other line is game/script/Prologues/act1.rpy:311
+
+File "game/script/act1.rpy", line 314: Line with id end_first_day_d81140e8 appears twice. The other line is game/script/Prologues/act1.rpy:314
+
+File "game/script/act1.rpy", line 315: Line with id end_first_day_e31df4b2 appears twice. The other line is game/script/Prologues/act1.rpy:315
+
+File "game/script/act1.rpy", line 318: Line with id end_first_day_0d72289b appears twice. The other line is game/script/Prologues/act1.rpy:318
+
+File "game/script/act1.rpy", line 319: Line with id end_first_day_f0ceb884 appears twice. The other line is game/script/Prologues/act1.rpy:319
+
+File "game/script/act1.rpy", line 320: Line with id end_first_day_f20eabd2 appears twice. The other line is game/script/Prologues/act1.rpy:320
+
+File "game/script/act1.rpy", line 322: Line with id end_first_day_92530248 appears twice. The other line is game/script/Prologues/act1.rpy:322
+
+File "game/script/act1.rpy", line 323: Line with id end_first_day_7dac8882 appears twice. The other line is game/script/Prologues/act1.rpy:323
+
+File "game/script/act1.rpy", line 324: Line with id end_first_day_c9917192 appears twice. The other line is game/script/Prologues/act1.rpy:324
+
+File "game/script/act1.rpy", line 325: Line with id end_first_day_74f3eb78 appears twice. The other line is game/script/Prologues/act1.rpy:325
+
+File "game/script/act1.rpy", line 326: Line with id end_first_day_2b35b6fe appears twice. The other line is game/script/Prologues/act1.rpy:326
+
+File "game/script/act1.rpy", line 329: Line with id end_first_day_20c75fbb appears twice. The other line is game/script/Prologues/act1.rpy:329
+
+File "game/script/act1.rpy", line 330: Line with id end_first_day_470c9a2b appears twice. The other line is game/script/Prologues/act1.rpy:330
+
+File "game/script/act1.rpy", line 334: Line with id end_first_day_74fbe61a appears twice. The other line is game/script/Prologues/act1.rpy:334
+
+File "game/script/act1.rpy", line 335: Line with id end_first_day_f20eabd2_1 appears twice. The other line is game/script/Prologues/act1.rpy:335
+
+File "game/script/act1.rpy", line 336: Line with id end_first_day_e3296abc appears twice. The other line is game/script/Prologues/act1.rpy:336
+
+File "game/script/prologue.rpy", line 17: Line with id prologue_17c024fc appears twice. The other line is game/script/Prologues/prologue.rpy:17
+
+File "game/script/prologue.rpy", line 18: Line with id prologue_7193c3d4 appears twice. The other line is game/script/Prologues/prologue.rpy:18
+
+File "game/script/prologue.rpy", line 19: Line with id prologue_aeacf2e0 appears twice. The other line is game/script/Prologues/prologue.rpy:19
+
+File "game/script/prologue.rpy", line 23: Line with id prologue_877ecf51 appears twice. The other line is game/script/Prologues/prologue.rpy:23
+
+File "game/script/prologue.rpy", line 24: Line with id prologue_a61789af appears twice. The other line is game/script/Prologues/prologue.rpy:24
+
+File "game/script/prologue.rpy", line 27: Line with id prologue_37c92dd8 appears twice. The other line is game/script/Prologues/prologue.rpy:27
+
+File "game/script/prologue.rpy", line 30: Line with id prologue_bfa9572a appears twice. The other line is game/script/Prologues/prologue.rpy:30
+
+File "game/script/prologue.rpy", line 38: Line with id prologue_c38130a1 appears twice. The other line is game/script/Prologues/prologue.rpy:38
+
+File "game/script/prologue.rpy", line 40: Line with id prologue_604a6226 appears twice. The other line is game/script/Prologues/prologue.rpy:40
+
+File "game/script/prologue.rpy", line 42: Line with id prologue_5bc8af6c appears twice. The other line is game/script/Prologues/prologue.rpy:42
+
+File "game/script/prologue.rpy", line 44: Line with id prologue_464145e4 appears twice. The other line is game/script/Prologues/prologue.rpy:44
+
+File "game/script/prologue.rpy", line 46: Line with id prologue_9a5100fe appears twice. The other line is game/script/Prologues/prologue.rpy:46
+
+File "game/script/prologue.rpy", line 48: Line with id prologue_277607ea appears twice. The other line is game/script/Prologues/prologue.rpy:48
+
+File "game/script/prologue.rpy", line 50: Line with id prologue_b93603a1 appears twice. The other line is game/script/Prologues/prologue.rpy:50
+
+File "game/script/prologue.rpy", line 53: Line with id prologue_3c168199 appears twice. The other line is game/script/Prologues/prologue.rpy:53
+
+File "game/script/prologue.rpy", line 66: Line with id prologue_f2347382 appears twice. The other line is game/script/Prologues/prologue.rpy:66
+
+File "game/script/prologue.rpy", line 67: Line with id prologue_7f876159 appears twice. The other line is game/script/Prologues/prologue.rpy:67
+
+File "game/script/prologue.rpy", line 70: Line with id prologue_9e26f422 appears twice. The other line is game/script/Prologues/prologue.rpy:70
+
+File "game/script/prologue.rpy", line 71: Line with id prologue_c064f655 appears twice. The other line is game/script/Prologues/prologue.rpy:71
+
+File "game/script/prologue.rpy", line 75: Line with id prologue_d9e8fba7 appears twice. The other line is game/script/Prologues/prologue.rpy:75
+
+File "game/script/prologue.rpy", line 78: Line with id prologue_0fe404c3 appears twice. The other line is game/script/Prologues/prologue.rpy:78
+
+File "game/script/prologue.rpy", line 82: Line with id prologue_7423ad36 appears twice. The other line is game/script/Prologues/prologue.rpy:82
+
+File "game/script/prologue.rpy", line 86: Line with id prologue_2475f9a9 appears twice. The other line is game/script/Prologues/prologue.rpy:86
+
+File "game/script/prologue.rpy", line 87: Line with id prologue_df5fdaf3 appears twice. The other line is game/script/Prologues/prologue.rpy:87
+
+File "game/script/prologue.rpy", line 90: Line with id prologue_4f78078e appears twice. The other line is game/script/Prologues/prologue.rpy:90
+
+File "game/script/prologue.rpy", line 91: Line with id prologue_ee66305d appears twice. The other line is game/script/Prologues/prologue.rpy:91
+
+File "game/script/prologue.rpy", line 99: Line with id prologue_259fd41d appears twice. The other line is game/script/Prologues/prologue.rpy:99
+
+File "game/script/prologue.rpy", line 100: Line with id prologue_d9963f2b appears twice. The other line is game/script/Prologues/prologue.rpy:100
+
+File "game/script/prologue.rpy", line 105: Line with id prologue_3142adba appears twice. The other line is game/script/Prologues/prologue.rpy:105
+
+File "game/script/prologue.rpy", line 108: Line with id prologue_60393d55 appears twice. The other line is game/script/Prologues/prologue.rpy:108
+
+File "game/script/prologue.rpy", line 110: Line with id prologue_b0c38610 appears twice. The other line is game/script/Prologues/prologue.rpy:110
+
+File "game/script/prologue.rpy", line 112: Line with id prologue_6d2ef6a7 appears twice. The other line is game/script/Prologues/prologue.rpy:112
+
+File "game/script/prologue.rpy", line 114: Line with id prologue_e71bbe24 appears twice. The other line is game/script/Prologues/prologue.rpy:114
+
+File "game/script/prologue.rpy", line 123: Line with id prologue_b201448b appears twice. The other line is game/script/Prologues/prologue.rpy:123
+
+File "game/script/prologue.rpy", line 124: Line with id prologue_53de434c appears twice. The other line is game/script/Prologues/prologue.rpy:124
+
+File "game/script/prologue.rpy", line 127: Line with id prologue_4e3ac285 appears twice. The other line is game/script/Prologues/prologue.rpy:127
+
+File "game/script/prologue.rpy", line 128: Line with id prologue_16c4da15 appears twice. The other line is game/script/Prologues/prologue.rpy:128
+
+File "game/script/prologue.rpy", line 129: Line with id prologue_3f8a86e1 appears twice. The other line is game/script/Prologues/prologue.rpy:129
+
+File "game/script/prologue.rpy", line 133: Line with id prologue_31180890 appears twice. The other line is game/script/Prologues/prologue.rpy:133
+
+File "game/script/prologue.rpy", line 134: Line with id prologue_df5fdaf3_1 appears twice. The other line is game/script/Prologues/prologue.rpy:134
+
+File "game/script/prologue.rpy", line 138: Line with id prologue_819cf2ab appears twice. The other line is game/script/Prologues/prologue.rpy:138
+
+File "game/script/prologue.rpy", line 139: Line with id prologue_31b1bf33 appears twice. The other line is game/script/Prologues/prologue.rpy:139
+
+File "game/script/prologue.rpy", line 142: Line with id prologue_e8f88b3e appears twice. The other line is game/script/Prologues/prologue.rpy:142
+
+File "game/script/prologue.rpy", line 143: Line with id prologue_095b974b appears twice. The other line is game/script/Prologues/prologue.rpy:143
+
+File "game/script/prologue.rpy", line 144: Line with id prologue_370608a4 appears twice. The other line is game/script/Prologues/prologue.rpy:144
+
+File "game/script/prologue.rpy", line 148: Line with id prologue_b150b4d2 appears twice. The other line is game/script/Prologues/prologue.rpy:148
+
+File "game/script/prologue.rpy", line 149: Line with id prologue_ae7d8fe0 appears twice. The other line is game/script/Prologues/prologue.rpy:149
+
+File "game/script/prologue.rpy", line 151: Line with id prologue_4b16f060 appears twice. The other line is game/script/Prologues/prologue.rpy:151
+
+File "game/script/prologue.rpy", line 153: Line with id prologue_143d13d0 appears twice. The other line is game/script/Prologues/prologue.rpy:153
+
+File "game/script/prologue.rpy", line 155: Line with id prologue_e1ce753d appears twice. The other line is game/script/Prologues/prologue.rpy:155
+
+File "game/script/prologue.rpy", line 159: Line with id prologue_cd00a54a appears twice. The other line is game/script/Prologues/prologue.rpy:159
+
+File "game/script/prologue.rpy", line 160: Line with id prologue_ec69f081 appears twice. The other line is game/script/Prologues/prologue.rpy:160
+
+File "game/script/prologue.rpy", line 161: Line with id prologue_7c86269a appears twice. The other line is game/script/Prologues/prologue.rpy:161
+
+File "game/script/prologue.rpy", line 165: Line with id prologue_f2c2c456 appears twice. The other line is game/script/Prologues/prologue.rpy:165
+
+File "game/script/prologue.rpy", line 166: Line with id prologue_ca11e7dd appears twice. The other line is game/script/Prologues/prologue.rpy:166
+
+File "game/script/prologue.rpy", line 169: Line with id prologue_29513770 appears twice. The other line is game/script/Prologues/prologue.rpy:169
+
+File "game/script/prologue.rpy", line 170: Line with id prologue_951e5d69 appears twice. The other line is game/script/Prologues/prologue.rpy:170
+
+File "game/script/prologue.rpy", line 174: Line with id prologue_fde85c27 appears twice. The other line is game/script/Prologues/prologue.rpy:174
+
+File "game/script/prologue.rpy", line 175: Line with id prologue_978f9ecf appears twice. The other line is game/script/Prologues/prologue.rpy:175
+
+File "game/script/prologue.rpy", line 178: Line with id prologue_fe81bad4 appears twice. The other line is game/script/Prologues/prologue.rpy:178
+
+File "game/script/prologue.rpy", line 182: Line with id prologue_bfb12f06 appears twice. The other line is game/script/Prologues/prologue.rpy:182
+
+File "game/script/prologue.rpy", line 184: Line with id prologue_89aa51c4 appears twice. The other line is game/script/Prologues/prologue.rpy:184
+
+File "game/script/prologue.rpy", line 188: Line with id prologue_d4d42b89 appears twice. The other line is game/script/Prologues/prologue.rpy:188
+
+File "game/script/prologue.rpy", line 190: Line with id prologue_05d32d53 appears twice. The other line is game/script/Prologues/prologue.rpy:190
+
+File "game/script/prologue.rpy", line 191: Line with id prologue_55794638 appears twice. The other line is game/script/Prologues/prologue.rpy:191
+
+File "game/script/prologue.rpy", line 194: Line with id prologue_c66e6d50 appears twice. The other line is game/script/Prologues/prologue.rpy:194
+
+File "game/script/prologue.rpy", line 195: Line with id prologue_6b738ed0 appears twice. The other line is game/script/Prologues/prologue.rpy:195
+
+File "game/script/prologue.rpy", line 196: Line with id prologue_c4a836d7 appears twice. The other line is game/script/Prologues/prologue.rpy:196
+
+File "game/script/prologue.rpy", line 200: Line with id prologue_4d252229 appears twice. The other line is game/script/Prologues/prologue.rpy:200
+
+File "game/script/prologue.rpy", line 202: Line with id prologue_840dc763 appears twice. The other line is game/script/Prologues/prologue.rpy:202
+
+File "game/script/prologue.rpy", line 204: Line with id prologue_ce3a2dd0 appears twice. The other line is game/script/Prologues/prologue.rpy:204
+
+File "game/script/prologue.rpy", line 207: Line with id prologue_7c92a2e3 appears twice. The other line is game/script/Prologues/prologue.rpy:207
+
+File "game/script/prologue.rpy", line 208: Line with id prologue_11f81a61 appears twice. The other line is game/script/Prologues/prologue.rpy:208
+
+File "game/script/prologue.rpy", line 212: Line with id prologue_67845214 appears twice. The other line is game/script/Prologues/prologue.rpy:212
+
+File "game/script/prologue.rpy", line 213: Line with id prologue_c802bca5 appears twice. The other line is game/script/Prologues/prologue.rpy:213
+
+File "game/script/prologue.rpy", line 216: Line with id prologue_5ee813da appears twice. The other line is game/script/Prologues/prologue.rpy:216
+
+File "game/script/prologue.rpy", line 217: Line with id prologue_8bd946d9 appears twice. The other line is game/script/Prologues/prologue.rpy:217
+
+File "game/script/prologue.rpy", line 221: Line with id prologue_07fca706 appears twice. The other line is game/script/Prologues/prologue.rpy:221
+
+File "game/script/prologue.rpy", line 224: Line with id prologue_52bd306a appears twice. The other line is game/script/Prologues/prologue.rpy:224
+
+File "game/script/prologue.rpy", line 225: Line with id prologue_b1f4f1ec appears twice. The other line is game/script/Prologues/prologue.rpy:225
+
+File "game/script/prologue.rpy", line 228: Line with id prologue_baacb01e appears twice. The other line is game/script/Prologues/prologue.rpy:228
+
+File "game/script/prologue.rpy", line 230: Line with id prologue_0be32598 appears twice. The other line is game/script/Prologues/prologue.rpy:230
+
+File "game/script/prologue.rpy", line 232: Line with id prologue_4b0ed50e appears twice. The other line is game/script/Prologues/prologue.rpy:232
+
+File "game/script/prologue.rpy", line 237: Line with id prologue_08635e20 appears twice. The other line is game/script/Prologues/prologue.rpy:237
+
+File "game/script/prologue.rpy", line 238: Line with id prologue_0bc793db appears twice. The other line is game/script/Prologues/prologue.rpy:238
+
+File "game/script/prologue.rpy", line 240: Line with id prologue_67258072 appears twice. The other line is game/script/Prologues/prologue.rpy:240
+
+File "game/script/prologue.rpy", line 244: Line with id prologue_9f8f7a97 appears twice. The other line is game/script/Prologues/prologue.rpy:244
+
+File "game/script/prologue.rpy", line 245: Line with id prologue_a8b70d2f appears twice. The other line is game/script/Prologues/prologue.rpy:245
+
+File "game/script/prologue.rpy", line 246: Line with id prologue_c85d2571 appears twice. The other line is game/script/Prologues/prologue.rpy:246
+
+File "game/script/prologue.rpy", line 250: Line with id prologue_2577b8e3 appears twice. The other line is game/script/Prologues/prologue.rpy:250
+
+File "game/script/prologue.rpy", line 252: Line with id prologue_94d9dfd0 appears twice. The other line is game/script/Prologues/prologue.rpy:252
+
+File "game/script/prologue.rpy", line 254: Line with id prologue_86bdae0a appears twice. The other line is game/script/Prologues/prologue.rpy:254
+
+File "game/script/prologue.rpy", line 255: Line with id prologue_8ff1f250 appears twice. The other line is game/script/Prologues/prologue.rpy:255
+
+File "game/script/prologue.rpy", line 256: Line with id prologue_ce7ab0bf appears twice. The other line is game/script/Prologues/prologue.rpy:256
+
+File "game/script/prologue.rpy", line 258: Line with id prologue_1daee53b appears twice. The other line is game/script/Prologues/prologue.rpy:258
+
+File "game/script/prologue.rpy", line 261: Line with id prologue_9017406e appears twice. The other line is game/script/Prologues/prologue.rpy:261
+
+File "game/script/prologue.rpy", line 264: Line with id prologue_53d01ea2 appears twice. The other line is game/script/Prologues/prologue.rpy:264
+
+File "game/script/prologue.rpy", line 278: Line with id prologue_d4512a53 appears twice. The other line is game/script/Prologues/prologue.rpy:278
+
+File "game/script/prologue.rpy", line 281: Line with id prologue_b7d0cb62 appears twice. The other line is game/script/Prologues/prologue.rpy:281
+
+File "game/script/prologue.rpy", line 289: Line with id prologue_cddf7974 appears twice. The other line is game/script/Prologues/prologue.rpy:289
+
+File "game/script/prologue.rpy", line 290: Line with id prologue_8ff1f250_1 appears twice. The other line is game/script/Prologues/prologue.rpy:290
+
+File "game/script/prologue.rpy", line 291: Line with id prologue_eaa45d3a appears twice. The other line is game/script/Prologues/prologue.rpy:291
+
+File "game/script/prologue.rpy", line 293: Line with id prologue_067cdb91 appears twice. The other line is game/script/Prologues/prologue.rpy:293
+
+File "game/script/prologue.rpy", line 294: Line with id prologue_1a1b91a1 appears twice. The other line is game/script/Prologues/prologue.rpy:294
+
+File "game/script/prologue.rpy", line 298: Line with id prologue_dcc31d41 appears twice. The other line is game/script/Prologues/prologue.rpy:298
+
+File "game/script/prologue.rpy", line 307: Line with id prologue_36855db4 appears twice. The other line is game/script/Prologues/prologue.rpy:307
+
+File "game/script/prologue.rpy", line 315: Line with id prologue_127c2f4a appears twice. The other line is game/script/Prologues/prologue.rpy:315
+
+File "game/script/prologue.rpy", line 318: Line with id prologue_e76601c5 appears twice. The other line is game/script/Prologues/prologue.rpy:318
+
+File "game/script/prologue.rpy", line 319: Line with id prologue_22f3cfbe appears twice. The other line is game/script/Prologues/prologue.rpy:319
+
+File "game/script/prologue.rpy", line 320: Line with id prologue_6cb11927 appears twice. The other line is game/script/Prologues/prologue.rpy:320
+
+File "game/script/prologue.rpy", line 321: Line with id prologue_6be57859 appears twice. The other line is game/script/Prologues/prologue.rpy:321
+
+File "game/script/prologue.rpy", line 322: Line with id prologue_3d27dbb8 appears twice. The other line is game/script/Prologues/prologue.rpy:322
+
+File "game/script/prologue.rpy", line 323: Line with id prologue_30200ccc appears twice. The other line is game/script/Prologues/prologue.rpy:323
+
+File "game/script/prologue.rpy", line 324: Line with id prologue_23ceb400 appears twice. The other line is game/script/Prologues/prologue.rpy:324
+
+File "game/script/prologue.rpy", line 326: Line with id prologue_2fe0aeee appears twice. The other line is game/script/Prologues/prologue.rpy:326
+
+File "game/script/prologue.rpy", line 342: Line with id prologue_17f7aeab appears twice. The other line is game/script/Prologues/prologue.rpy:342
+
+File "game/script/prologue.rpy", line 345: Line with id prologue_b2b26055 appears twice. The other line is game/script/Prologues/prologue.rpy:345
+
+File "game/script/prologue.rpy", line 354: Line with id prologue_ef2481a9 appears twice. The other line is game/script/Prologues/prologue.rpy:354
+
+File "game/script/prologue.rpy", line 364: Line with id prologue_9df2d212 appears twice. The other line is game/script/Prologues/prologue.rpy:364
+
+File "game/script/prologue.rpy", line 368: Line with id prologue_7a4392a6 appears twice. The other line is game/script/Prologues/prologue.rpy:368
+
+File "game/script/prologue.rpy", line 371: Line with id prologue_e232d0b3 appears twice. The other line is game/script/Prologues/prologue.rpy:371
+
+File "game/script/prologue.rpy", line 372: Line with id prologue_24acdbd1 appears twice. The other line is game/script/Prologues/prologue.rpy:372
+
+File "game/script/prologue.rpy", line 374: Line with id prologue_6b85b546 appears twice. The other line is game/script/Prologues/prologue.rpy:374
+
+File "game/script/prologue.rpy", line 375: Line with id prologue_2b35b6fe appears twice. The other line is game/script/Prologues/prologue.rpy:375
+
+File "game/script/prologue.rpy", line 376: Line with id prologue_f00c4f9e appears twice. The other line is game/script/Prologues/prologue.rpy:376
+
+File "game/script/prologue.rpy", line 380: Line with id prologue_ea54a4a4 appears twice. The other line is game/script/Prologues/prologue.rpy:380
+
+File "game/script/prologue.rpy", line 382: Line with id prologue_0bc793db_1 appears twice. The other line is game/script/Prologues/prologue.rpy:382
+
+File "game/script/prologue.rpy", line 384: Line with id prologue_b5d4d429 appears twice. The other line is game/script/Prologues/prologue.rpy:384
+
+File "game/script/prologue.rpy", line 387: Line with id prologue_e0596595 appears twice. The other line is game/script/Prologues/prologue.rpy:387
+
+File "game/script/prologue.rpy", line 390: Line with id prologue_b952aa77 appears twice. The other line is game/script/Prologues/prologue.rpy:390
+
+File "game/script/prologue.rpy", line 391: Line with id prologue_fb599161 appears twice. The other line is game/script/Prologues/prologue.rpy:391
+
+File "game/script/prologue.rpy", line 395: Line with id prologue_0eab9d21 appears twice. The other line is game/script/Prologues/prologue.rpy:395
+
+File "game/script/prologue.rpy", line 396: Line with id prologue_6c39d6cc appears twice. The other line is game/script/Prologues/prologue.rpy:396
+
+File "game/script/prologue.rpy", line 399: Line with id prologue_f8bc0279 appears twice. The other line is game/script/Prologues/prologue.rpy:399
+
+File "game/script/prologue.rpy", line 401: Line with id prologue_b3d38b15 appears twice. The other line is game/script/Prologues/prologue.rpy:401
+
+File "game/script/prologue.rpy", line 403: Line with id prologue_2c979e2f appears twice. The other line is game/script/Prologues/prologue.rpy:403
+
+File "game/script/prologue.rpy", line 411: Line with id prologue_0f56a0c5 appears twice. The other line is game/script/Prologues/prologue.rpy:411
+
+File "game/script/prologue.rpy", line 412: Line with id prologue_131a9b21 appears twice. The other line is game/script/Prologues/prologue.rpy:412
+
+File "game/script/prologue.rpy", line 414: Line with id prologue_0e9f8d3d appears twice. The other line is game/script/Prologues/prologue.rpy:414
+
+File "game/script/prologue.rpy", line 423: Line with id prologue_fd6162ff appears twice. The other line is game/script/Prologues/prologue.rpy:423
+
+File "game/script/prologue.rpy", line 427: Line with id prologue_70272cc3 appears twice. The other line is game/script/Prologues/prologue.rpy:427
+
+File "game/script/prologue.rpy", line 428: Line with id prologue_82fef951 appears twice. The other line is game/script/Prologues/prologue.rpy:428
+
+File "game/script/prologue.rpy", line 431: Line with id prologue_ce6f8152 appears twice. The other line is game/script/Prologues/prologue.rpy:431
+
+File "game/script/prologue.rpy", line 434: Line with id prologue_7eb1c7c5 appears twice. The other line is game/script/Prologues/prologue.rpy:434
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sun May 18 20:19:27 2025
+Mon May 19 09:59:18 2025

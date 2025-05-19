@@ -15,10 +15,10 @@ init -1:
 
     # Caractéristiques du personnage MC
     # Skills
-    default intelligence = 2
-    default strength = 1
-    default mana = 3
-    default adresse = 1
+    default mc_intelligence = 2
+    default mc_strength = 1
+    default mc_mana = 3
+    default mc_dexterity = 1
     
     # Corruption_system
     default holiness_mc = 0

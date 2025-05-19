@@ -16,7 +16,8 @@
 image village1 = "images/PageTest/5.png"
 
 label GoToVillage_01:
-    
+    scene page_test_1 with fade
+
     # images x10 montrant le village et bg_village01.png -- village09.png
     mc_thought "Où est ce que je suis tombé... ???"
     mc_thought "Ah, voici l'auberge."
@@ -334,4 +335,7 @@ label end_first_day:
     mc_thought "..."
     mc_thought " Vox, espèce de salope."
 
+
     jump start_tuto_dream
+
+    jump start_first_day

@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/constants/daily_constants.rpy", line 34, in script call
-    call constants_day
-  File "game/constants/daily_constants.rpy", line 15, in script
-    jump GoToVillage
-ScriptError: could not find label 'GoToVillage'.
+  File "game/init.rpy", line 43, in script
+    init python:
+  File "game/init.rpy", line 44, in <module>
+    config.mouse["hunt"] = "gui/minigames/hunt/objects/hunt_target.png"
+TypeError: 'NoneType' object does not support item assignment
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/constants/daily_constants.rpy", line 34, in script call
-    call constants_day
-  File "game/constants/daily_constants.rpy", line 15, in script
-    jump GoToVillage
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\ast.py", line 1712, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'GoToVillage'.
+  File "game/init.rpy", line 43, in script
+    init python:
+  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Lefet\OneDrive\Bureau\renpy\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/init.rpy", line 44, in <module>
+    config.mouse["hunt"] = "gui/minigames/hunt/objects/hunt_target.png"
+TypeError: 'NoneType' object does not support item assignment
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Reverse Kingdom 1.0
-Sat May 17 00:11:23 2025
+Mon May 19 09:34:04 2025

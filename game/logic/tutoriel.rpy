@@ -121,7 +121,7 @@ label start_tuto_dream:
 
     label dream_ass_1:
         # scene main MC au fesses sous la robe de chambre.
-        mc_thought "Si je pouvais lui prendre la fesse et lui mettre une bonne fessée..."
+        mc_thought "Si je pouvais toucher ses fesses et lui mettre une bonne fessée..."
 
     label tuto_dream_2:
         # MC s'approche doucement des levres de Clara.
@@ -152,7 +152,6 @@ label start_tuto_dream:
     
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 label start_tuto_hunt:
     # Constante pour affichage du menu.
     $ menu_tuto_hunt = False
@@ -162,19 +161,35 @@ label start_tuto_hunt:
     
     no "Voici \"The Hunters Games\"."
     show page_test_3 with dissolve
-    no "Le principe est simple : \"Chasser les Montres\"."
-    no "Vous êtes le chasseur, ils sont les proies."
+    
     
     # Ecran du GamePlay.
     show screen hunt_Gameplay
-    no "Vous avez un total de 6 flèches."
-    show screen Arrow_hunt_1
+    no "Le principe est simple : \"Chasser les Montres\"."
+    no "Vous êtes le chasseur, ils sont les proies."
 
+    show screen hunt_arrow_1
+    no "Vous avez un total de 6 flèches."
+    no "Et des animaux passeront devant vous, à vous de les shooter quand ils sortiront de leurs cachettes."
+    hide screen hunt_arrow_1
+
+    show screen snail_on
+    no "Et voilà la petite bête."
+    no "Ne vous fiez pas à son air inoffensif..."
+    no "Vous allez vite vous rendre compte que les animaux sont terribles ici."
     
-    hide screen hunt_Gameplay
+    # Screen animation avec animal_rage
+    no "Certains sont compètement sauvages et vous attaqueront sans pitié."
+    no "Vous devrez les tuer afin d'éviter d'être touché."
+    no "Si vous êtes touchés trois fois dans le jeu :"
+    no "vous revenez à la Grotte et vous perdez la moitié de ce que vous aviez collectés."
+    no "Et oui, vous pouvez collecter des objets des monstres que vous tuer."
+    no "Ces objets vous seront utiles dans le jeu, faîtes en bonne usage."
+
     
     # scene screen cavern_fire
     no "Et voilà pour le tuto chasse."
+    hide screen hunt_Gameplay
 
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -184,15 +199,4 @@ label start_tuto_hunt:
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-label start_tuto_mana:
-    show page_test_3 with dissolve
-    no "L'entraînement à la magie consiste "
-
-    #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-    # Affichage de la section suivante : ...
-    jump start_day
-    
-    #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
+   
